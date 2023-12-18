@@ -1,0 +1,66 @@
+/* Updated CSS styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f6f6f6;
+}
+
+.app-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.app-headline {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #07a80f;
+}
+.app-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ee2727;
+}
+
+.app-dropdown {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #444;
+}
+
+.app-button {
+  width: 100%;
+  background-color: #ff6b6b;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.app-button:hover {
+  background-color: #ff5252;
+}
+
+.app-result {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+}
